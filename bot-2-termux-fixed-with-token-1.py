@@ -22,8 +22,8 @@ except ImportError:
 CallbackContext = object
 
 # ================== TELEGRAM CONFIG ==================
-TOKEN = ""
-OWNER_ID = int(os.getenv("OWNER_ID", ""))
+TOKEN = os.getenv("TOKEN", "").strip()
+OWNER_ID = int(os.getenv("OWNER_ID", "8210011971"))
 
 AUTO_DELETE_SECONDS = 21000
 
