@@ -22,13 +22,13 @@ except ImportError:
 CallbackContext = object
 
 # ================== TELEGRAM CONFIG ==================
-TOKEN = "8635470675:AAE-uJTyYwhXf5z5BguS7uH72mbfu4hRbl0"
-OWNER_ID = int(os.getenv("OWNER_ID", "8210011971"))
+TOKEN = ""
+OWNER_ID = int(os.getenv("OWNER_ID", ""))
 
 AUTO_DELETE_SECONDS = 21000
 
 # ================== DHAN CONFIG ==================
-CLIENT_ID = os.getenv("DHAN_CLIENT_ID", "1109097878").strip()
+CLIENT_ID = os.getenv("DHAN_CLIENT_ID", "").strip()
 
 # 🔥 IMPORTANT CHANGE
 # ❌ hard-coded token hata diya
